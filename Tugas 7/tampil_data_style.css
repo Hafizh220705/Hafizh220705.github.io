@@ -1,0 +1,51 @@
+/* tampil_data_style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin: 5px 0;
+    color: #555;
+}
+
+a {
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+a:hover {
+    background-color: #45a049;
+}
+
+a.logout {
+    background-color: #f44336;
+    margin-top: 10px;
+}
+
+a.logout:hover {
+    background-color: #e53935;
+}
